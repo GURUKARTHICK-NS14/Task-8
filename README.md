@@ -1,20 +1,23 @@
-Task 8 – SQL Injection
-Objective
+## Task 8 – SQL Injection
+## Objective
 To identify and exploit SQL Injection vulnerabilities using a vulnerable web application.
 
-Tools Used
+## Tools Used
 Kali Linux
 DVWA (Damn Vulnerable Web Application)
 Web Browser
-Description
+
+## Description
 SQL Injection vulnerability was tested in the DVWA SQL Injection module. Manual SQL Injection was successfully performed by manipulating the id parameter, allowing unauthorized access to database records.
 
-Impact
+## Impact
 Exposure of sensitive database information
 Unauthorized data access
-Mitigation
+
+## Mitigation
 Use prepared statements
 Input validation and sanitization
 Least privilege database access
-Result
+
+## Result
 Successfully demonstrated SQL Injection attack in DVWA.
